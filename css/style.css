@@ -26,20 +26,33 @@ section:first-child .rightbar{
 }
 section:first-child .leftbar{
   background-color: var(--black);
-  width:200px;
+
 }
 section:first-child .rightbar{
   background-color: var(--blue);
 }
-section:first-child .content{
+section:first-child .leftbar .content:first-child{
+  border: 1px solid yellow;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 30px 100px 0px 10px;
+
+}
+section:first-child .rightbar .content:first-child{
   overflow: auto;
   height: 100%;
   border: 1px solid red;
 }
 
 /* 2° SECTION */
-section:nth-child(2) .bottombar{
+section:nth-child(2) .container{
   height: 10vh;
   background-color: var(--gray);
   padding: 20px;
+}
+section:nth-child(2) .content{
+  justify-content: space-between;
+
+
 }
