@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: var(--white);
+}
+:root{
+  --gray:#555454;
+  --lihtgray:#797c80;
+  --blue:#141922;
+  --black:#000000;
+  --white:#ffffff;
+
+}
+.flex{
+  display: flex;
+}
+
+/* 1° SECTION */
+section:first-child .leftbar,
+section:first-child .rightbar{
+  height: 90vh;
+}
+section:first-child .leftbar{
+  background-color: var(--black);
+  width:200px;
+}
+section:first-child .rightbar{
+  background-color: var(--blue);
+}
+section:first-child .content{
+  overflow: auto;
+  height: 100%;
+  border: 1px solid red;
+}
+
+/* 2° SECTION */
+section:nth-child(2) .bottombar{
+  height: 10vh;
+  background-color: var(--gray);
+  padding: 20px;
+}
