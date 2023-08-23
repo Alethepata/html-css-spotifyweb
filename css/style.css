@@ -23,26 +23,38 @@ body{
 section:first-child .leftbar,
 section:first-child .rightbar{
   height: 90vh;
+
 }
 section:first-child .leftbar{
   background-color: var(--black);
+  z-index: 3;
 
 }
 section:first-child .rightbar{
-  background-color: var(--blue);
+  background-color: var(--blue);  
 }
 section:first-child .leftbar .content:first-child{
   border: 1px solid yellow;
   overflow: hidden;
   height: 100%;
-  width: 100%;
   padding: 30px 100px 0px 10px;
 
 }
-section:first-child .rightbar .content:first-child{
+section:first-child .rightbar .content{
   overflow: auto;
   height: 100%;
   border: 1px solid red;
+}
+section:first-child .rightbar .content p{
+  padding-top: 100px;
+}
+.topbar{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 75px;
+  width:100%;
+  position: fixed;
+  text-align: right;
+
 }
 
 /* 2° SECTION */
