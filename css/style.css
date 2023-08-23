@@ -22,7 +22,7 @@ body{
 /* 1° SECTION */
 section:first-child .leftbar,
 section:first-child .rightbar{
-  height: 90vh;
+  height: calc(100vh - 100px);
 
 }
 section:first-child .leftbar{
@@ -59,12 +59,29 @@ section:first-child .rightbar .content p{
 
 /* 2° SECTION */
 section:nth-child(2) .container{
-  height: 10vh;
+  height: 100px;
   background-color: var(--gray);
   padding: 20px;
+
 }
 section:nth-child(2) .content{
+  height: 100%;
+
+
+}
+section:nth-child(2) .bottombar{
   justify-content: space-between;
+
+
+}
+section:nth-child(2) img{
+  height: 70px;
+
+
+}
+section:nth-child(2) .text{
+  margin: 10px 0 0 10px;
+
 
 
 }
