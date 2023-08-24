@@ -88,23 +88,71 @@ section:nth-child(2){
   height: 100px;
   background-color: var(--gray);
   padding: 20px;
-  height: 100%;
+
 }
 
 section:nth-child(2) .bottombar{
+ height: 100%;
   justify-content: space-between;
-
-
 }
 section:nth-child(2) img{
-  height: 70px;
+  height: 60px;
 
 
 }
 section:nth-child(2) .text{
   margin: 10px 0 0 10px;
 
+}
+section:nth-child(2) .content:first-child .font,
+section:nth-child(2) .content:last-child{
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(2) .music-bar{
+  position: relative;
+  margin: 0 30px;
+}
+section:nth-child(2) .bar{
+  height: 5px;
+  border-radius: 50px;
 
+}
+/* 2° section  2°CONTENT */
+section:nth-child(2) .content:nth-child(2) .font{
+  text-align: center;
+}
+section:nth-child(2) .content:nth-child(2) .text{
+  justify-content: space-between;
+
+}
+
+
+section:nth-child(2) .content:nth-child(2) .bar.big{
+  width: 500px;
+  background-color: var(--lihtgray);
+
+}
+section:nth-child(2) .content:nth-child(2) .bar.small{
+  width: 100px;
+  background-color: var(--white);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+/* 2° section  3°CONTENT */
+section:nth-child(2) .content:nth-child(3) .bar.big{
+  width: 100px;
+  background-color: var(--lihtgray);
+
+}
+section:nth-child(2) .content:nth-child(3) .bar.small{
+  width: 25px;
+  background-color: var(--white);
+  position: absolute;
+  top: 0;
+  left: 0;
 
 }
 
