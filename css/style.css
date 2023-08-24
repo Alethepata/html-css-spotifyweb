@@ -35,8 +35,17 @@ section:first-child .leftbar{
 
 }
 section:first-child .leftbar .content .top {
-  height: calc(100% - 80px);
+ height: calc(100% - 80px);
   overflow: hidden;
+}
+section:first-child .leftbar .link{
+  border: 1px solid orangered;
+  overflow: auto;
+  width: 100%;
+  height: 60%;
+  margin-top:30px ;
+
+
 }
 section:first-child .leftbar .content .bottom {
   height: 80px;
@@ -49,6 +58,8 @@ section:first-child .leftbar .content:first-child{
 
 
 }
+
+
 
 section:first-child .rightbar{
   background-color: var(--blue);  
