@@ -41,6 +41,7 @@ section:first-child{
   overflow: hidden; 
 }
 section:last-child{
+  background-color: var(--gray);
   height: 100px;
   justify-content: space-between;
 }
@@ -145,7 +146,9 @@ section:last-child{
   padding: 15px;
 
 }
-
+section:last-child .right, .left{
+  align-items: center;
+}
 section:last-child .middle{
   width: 40%;
   text-align: center;
@@ -154,12 +157,25 @@ section:last-child .left img{
   height: 60px;
 }
 section:last-child .left .text{
-  padding: 15px 20px 0 15px;
+  padding: 0 20px 0 15px;
 }
-section:last-child .left .font{
+section:last-child .middle .font i {
+  margin: 0 10px 10px 10px;
+  font-size: 25px;
+}
+
+section:last-child .middle .text {
   align-items: center;
 }
-section:last-child .left .font i:first-child {
+section:last-child .middle .text span:first-child {
+  margin-right: 10px;
+}
+section:last-child .middle .text span:last-child {
+  margin-left: 10px;
+}
+
+section:last-child .left .font i:first-child,
+section:last-child .right .font i {
   margin-right: 10px;
 }
 
@@ -184,6 +200,18 @@ section:last-child .left .font i:first-child {
   left: 0;
 }
 
+.middle .bar.big{
+width: 100%;
+}
 .middle .bar.small{
 width: 20%;
+}
+
+
+
+.right .bar.big{
+width: 80px;
+}
+.right .bar.small{
+width: 30px;
 }
