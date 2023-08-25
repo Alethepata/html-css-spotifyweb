@@ -162,3 +162,28 @@ section:last-child .left .font{
 section:last-child .left .font i:first-child {
   margin-right: 10px;
 }
+
+
+.music-bar{
+  position: relative;
+  width: 100%;
+}
+.bar{
+  height: 10px;
+  border-radius: 10px;
+}
+.bar.big{
+  background-color: var(--lihtgray);
+ 
+
+}
+.bar.small{
+  background-color: var(--white);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.middle .bar.small{
+width: 20%;
+}
