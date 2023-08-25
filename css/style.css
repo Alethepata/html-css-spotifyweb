@@ -43,7 +43,6 @@ section:first-child{
 section:last-child{
   height: 100px;
   justify-content: space-between;
-  text-align: center;
 }
 
 /* 1° SECTION */
@@ -142,6 +141,24 @@ section:last-child{
 
 /* 2° SECTION */
 
+section:last-child{
+  padding: 15px;
+
+}
+
 section:last-child .middle{
   width: 40%;
+  text-align: center;
+}
+section:last-child .left img{
+  height: 60px;
+}
+section:last-child .left .text{
+  padding: 15px 20px 0 15px;
+}
+section:last-child .left .font{
+  align-items: center;
+}
+section:last-child .left .font i:first-child {
+  margin-right: 10px;
 }
