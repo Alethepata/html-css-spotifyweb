@@ -94,6 +94,19 @@ section:last-child{
   height: 60%;   
 
 }
+.playlist .text span::before{
+ content: "+";
+ font-size: 40px;
+ color: var(--black);
+ background-color: var(--lihtgray);
+ display: inline-block;
+ height: 45px;
+ width: 45px;
+ line-height: 45px;
+ text-align: center;
+ vertical-align: middle;
+}
+
 .bottom-leftbar{
   height: 80px;
 
