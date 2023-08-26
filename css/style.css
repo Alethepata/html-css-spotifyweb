@@ -139,6 +139,26 @@ section:last-child{
 .main-content{
   margin-top: 120px;
 }
+.main-content .container{
+  margin: 0 auto;
+  width: 1200px;
+}
+.main-content h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.main-content img{
+  width: 180px;
+}
+.main-content .top-content{
+  justify-content: space-evenly;
+
+}
+.main-content .card{
+  text-align: center;
+  width: 180px;
+
+}
 
 /* 2° SECTION */
 
