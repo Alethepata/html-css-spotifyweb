@@ -139,10 +139,7 @@ section:last-child{
 .main-content{
   margin-top: 120px;
 }
-.main-content .container{
-  margin: 0 auto;
-  width: 1200px;
-}
+
 .main-content h1{
   font-size: 30px;
   margin-bottom: 20px;
@@ -151,12 +148,14 @@ section:last-child{
   width: 180px;
 }
 .main-content .top-content{
-  justify-content: space-evenly;
+ flex-wrap: wrap;
+
 
 }
 .main-content .card{
   text-align: center;
   width: 180px;
+  margin-left: 30px;
 
 }
 
