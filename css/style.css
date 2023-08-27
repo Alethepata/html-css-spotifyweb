@@ -31,6 +31,7 @@ li{
 }
 a{
   text-decoration: none;
+  color: var(--lihtgray);
 }
 
 .main-wrapper{
@@ -53,9 +54,20 @@ section:last-child{
   height: 100%; 
   min-height: 400px;
   background-color: var(--black);
-  padding: 0 20px;
+  padding: 15px 20px 0 20px;
  
 
+}
+.leftbar .playlist h4{
+padding: 15px 0;
+ 
+}
+.leftbar li{
+padding-top: 15px;
+ 
+}
+.top-leftbar .link .active{
+  
 }
 .top-leftbar{
   height: calc(100% - 80px);
@@ -65,10 +77,12 @@ section:last-child{
 }
 .top-leftbar .logo img{
   height: 40px;
+
 }
 .top-leftbar .link img{
   height: 30px;
-  vertical-align: middle;
+  vertical-align: middle;  
+  filter: opacity(0.5);
 }
 
 .playlist{
@@ -94,8 +108,10 @@ section:last-child{
 
 }
 
+
 .bottom-leftbar .text:first-child{
   border-bottom: 1px solid var(--lihtgray);
+  color: var(--lihtgray);
   
 
 }
