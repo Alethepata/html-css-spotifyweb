@@ -13,6 +13,7 @@ body{
   --blue:#141922;
   --black:#000000;
   --white:#ffffff;
+  --green:#9efa16;
 
 }
 
@@ -323,6 +324,22 @@ width: 30px;
 }
 
 
+.leftbar .top-leftbar nav li{
+  padding-left: 10px;
+  border-left: 3px solid transparent;
+  
+}
+.leftbar .top-leftbar nav li.active{
+  border-left-color: var(--green);
+}
+.leftbar .top-leftbar nav li.active img{
+  filter: opacity(1);
+}
+.leftbar .top-leftbar nav li.active span{
+  color: var(--white);
+}
+
+
 /* HOVER */
 .link li a:hover,
 .playlist .text:hover a:nth-child(2),
@@ -352,7 +369,7 @@ section:last-child .middle .font li:nth-child(3):hover{
   scale: 1.5;
 }
 .music-bar:hover .small.bar{
-  background-color: rgb(158, 250, 22);
+  background-color:var(--green) ;
 }
 .music-bar:hover .point{
   display: block;
