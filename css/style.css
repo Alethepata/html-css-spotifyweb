@@ -340,6 +340,22 @@ width: 30px;
 }
 
 
+.categories nav li a{
+ position: relative;
+}
+.categories nav li.active a div{
+  background-color: #9efa16;
+  width: 50%;
+  height: 3px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25px;
+
+
+}
+
+
 /* HOVER */
 .link li a:hover,
 .playlist .text:hover a:nth-child(2),
