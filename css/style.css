@@ -180,7 +180,7 @@ padding-top: 15px;
 
 }
 .main-content img{
-  width: 180px;
+  width: 100%;
 }
 .main-content .card{
   text-align: center;
@@ -219,9 +219,10 @@ position: relative;
 
 /* 2° SECTION */
 
-section:last-child{
+section:last-child .player{
   padding: 15px;
   justify-content: space-between;
+  width: 100%;
 
 }
 section:last-child .left .text span,
@@ -394,7 +395,7 @@ section:last-child .middle .font li:nth-child(3):hover{
   display: block;
 }
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:685px) {
   .leftbar{
     width: 60px;
     padding: 0;
@@ -420,6 +421,9 @@ section:last-child .middle .font li:nth-child(3):hover{
   .bottom-leftbar .text:first-child{
     border-bottom: none;
     margin-bottom: 20px;
+  }
+  section:nth-child(2) .player{
+    width: 50%;
   }
   
 }
