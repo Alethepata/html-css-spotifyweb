@@ -217,6 +217,7 @@ position: relative;
 
 section:last-child{
   padding: 15px;
+  justify-content: space-between;
 
 }
 section:last-child .left .text span,
@@ -224,9 +225,14 @@ section:last-child .left .font {
   color: var(--lihtgray);
 
 }
+section:last-child .left .text h4 a{
+  color: var(--white);
+
+
+}
 section:last-child .left .text span {
   font-size: 14px;
-  cursor: pointer;
+
 
 }
 section:last-child .right, .left{
@@ -236,8 +242,13 @@ section:last-child .middle{
   width: 40%;
   text-align: center;
 }
+section:last-child .middle .font ul{
+  justify-content: center;
+
+
+}
 section:last-child .left img{
-  height: 60px;
+  height: 50px;
 }
 section:last-child .left .text{
   padding: 0 20px 0 15px;
@@ -266,21 +277,18 @@ section:last-child .right .font i {
 .music-bar{
   position: relative;
   width: 100%;
+
 }
 .bar{
   height: 10px;
   border-radius: 10px;
   cursor: pointer;
 }
-.circle{
-  scale: 1.5;
-  width: 10px;
-  height: 10px;
+.point{
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  position: absolute;
   background-color: var(--white);
-  bottom: 0;
-  right: 0;  
   display: none;
 }
 
@@ -294,6 +302,8 @@ section:last-child .right .font i {
   position: absolute;
   top: 0;
   left: 0;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .middle .bar.big{
@@ -338,13 +348,13 @@ section:last-child .left .text span:hover{
 .content .topbar .link a:hover{
   scale: 2;
 }
-section:last-child .middle .font i:nth-child(3):hover{
+section:last-child .middle .font li:nth-child(3):hover{
   scale: 1.5;
 }
 .music-bar:hover .small.bar{
   background-color: rgb(158, 250, 22);
 }
-.music-bar:hover .circle{
+.music-bar:hover .point{
   display: block;
 }
 
